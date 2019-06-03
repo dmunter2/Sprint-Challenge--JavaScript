@@ -1,5 +1,5 @@
 # Sprint Challenge: JavaScript Fundamentals
-
+1
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a survey of problems. This Sprint explored JavaScript Fundamentals. During this Sprint, you studied variables, functions, object literals, arrays, this keyword, prototypes, and class syntax. In your challenge this week, you will demonstrate proficiency by completing a survey of JavaScript problems.
 
 ## Instructions
@@ -29,14 +29,33 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+    -    Map creates a new array with the resultes of the provided function on every element in the array
+    -   Foreach executes a provided function once for each array element
 
 2. What is the difference between a function and a method?
+    -    A function is code that can be called by name. While a method is code that is associated with an object, it can also use data in the class 
 
 3. What is closure?
+    - This is where an inner function has access to the enclosing functions variables 
+        3 scope chains, 
+        acces to its own scope
+        access to the outer functions variables
+        access to the global variables
 
 4. Describe the four rules of the 'this' keyword.
+    Window/Global Object Binding
+        When in the global scope the value of "this" will be the window/console object
+    Implicit Binding
+        whenever a function is called by a preceding dot, the object before that dot is this
+
+    New Binding
+        whenever a constructor function is used, this refers to the specific instnace of the object that is created and returned by the constructor function
+
+    Explicit Binding
+        when call or apply method is used, this is defined
 
 5. Why do we need super() in an extended class?
+    super allows a child class to access info from the parent class, it initializes "this"
 
 ## Project Set up
 

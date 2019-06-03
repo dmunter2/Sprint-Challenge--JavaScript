@@ -79,10 +79,13 @@ Once you have the new array created, sort the universities alphabetically and lo
 const universities = [];
 
 for (let i = 0; i < graduates.length; i++) {
-    universities.push(graduates[i].university)
+    universities.push(graduates[i].university);
 }
-console.log(universities)
 
+universities.sort();
+
+console.log(universities);
+/*
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. 
 
 The resulting contact information should have a space between the first name and the email information like this: 
